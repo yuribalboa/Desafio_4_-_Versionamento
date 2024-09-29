@@ -1,0 +1,15 @@
+.body{
+    width: 1440px;
+    height: 858px;
+    background-color: #2d2d2d;
+}
+
+.body h1{
+font-size: 40px;
+font-weight: 600;
+line-height: 60px;
+text-align: left;
+margin: 0;
+padding-left: 4.45%;
+padding-top: 9.5%;
+}

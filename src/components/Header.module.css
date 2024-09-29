@@ -24,14 +24,15 @@
 
 .tarefas{
     width: 174px;
-    height: 54px;
-    border-radius: 10px 10px;
+    height: 45px;
+    border-radius: 10px 10px 0px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #0C70F2;
     background-color: #ffffff;
     margin-top: 29px;
+    margin-bottom: 0px;
     font-family: 'Poppins';
     font-size: 25px;
     font-weight: 600;
