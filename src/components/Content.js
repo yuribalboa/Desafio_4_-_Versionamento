@@ -18,6 +18,13 @@ function Content(){
         }
     };
 
+    // Função para detectar o pressionamento da tecla Enter
+    const handleKeyPress = (event) => {
+        if (event.key === 'Enter') {
+        addTask(); // Chama a função de adicionar tarefa ao pressionar Enter
+        }
+    };
+
     // Função para marcar/desmarcar a tarefa como concluída
     const taskStatus = (taskId) => {
         setTasks(tasks.map(task =>
@@ -92,6 +99,7 @@ function Content(){
                     value={newTask}
                     onChange={(e) => setNewTask(e.target.value)}
                     placeholder="Nova tarefa..."
+                    onKeyDown={handleKeyPress}  // Detecta quando a tecla Enter é pressionada
                 />
                 <button onClick={addTask}>+</button>
             </div>
