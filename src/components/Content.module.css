@@ -1,6 +1,6 @@
 .body{
     width: 1440px;
-    height: 858px;
+    min-height: 858px;
     background-color: #2d2d2d;
 }
 
@@ -47,6 +47,7 @@
     width: 620px;
     margin-left: 27%;
     justify-content: space-between;
+    padding-bottom: 150px;
 }
 
 .addTask input{
