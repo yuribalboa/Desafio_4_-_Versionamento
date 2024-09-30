@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import styles from './Content.module.css'
+import styles from './Content.module.css';
+import {ReactComponent as EditIcon} from './edit.svg';
+import {ReactComponent as DeleteIcon} from './delete.svg';
 
 function Content(){
 
@@ -54,18 +56,27 @@ function Content(){
                 {tasks.length > 0 ? (
                     tasks.map(task => (
                         <li key={task.id} className={task.completed ? 'completed' : ''}>
-                        <input
-                            type="checkbox"
-                            checked={task.completed}
-                            onChange={() => taskStatus(task.id)}
-                        />
-                        {task.text}
+                            <div style={{ width: '280px', minHeight:'35px', wordWrap: 'break-word', whiteSpace: 'normal'}}>
+                                {task.text}
+                            </div>
+                           
+                           <div style={{ minHeight:'35px', alignContent:'center'}}>
+                                <input
+                                    type="checkbox"
+                                    style={{ width: '20px', height:'20px'}}
+                                    checked={task.completed}
+                                    onChange={() => taskStatus(task.id)}
+                                />
+                           </div>
 
-                        {/* Botão para editar a tarefa */}
-                        <button onClick={() => editTask(task.id)}>Editar</button>
+                            <div style={{ width: '260px', minHeight:'35px', alignContent:'center'}}>
+                                {/* Botão para editar a tarefa */}
+                                <button style={{ paddingLeft: '190px', border:'none', color:'#FFFFFF', backgroundColor: '#2d2d2d' }} onClick={() => editTask(task.id)}><EditIcon/></button>
 
-                        {/* Botão para excluir a tarefa */}
-                        <button onClick={() => deleteTask(task.id)}>Excluir</button>
+                                {/* Botão para excluir a tarefa */}
+                                <button style={{ pading: '0px', border:'none', color:'#FFFFFF', backgroundColor: '#2d2d2d' }} onClick={() => deleteTask(task.id)}><DeleteIcon/></button>
+
+                            </div>
                         </li>
                     ))
                 ) : (

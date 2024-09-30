@@ -6,6 +6,7 @@
 
 .body ul{
     padding: 0;
+    height: auto;
 }
 
 .body h1{
@@ -24,6 +25,10 @@
     font-weight: 600;
     line-height: 35.22px;
     text-align: left;
+}
+
+.body button:hover{
+    cursor: pointer;
 }
 
 .titles{
@@ -75,6 +80,22 @@
     line-height: 29.35px;
     width: 25px;
     height: 35px;
+    background-color: #2d2d2d;
+    color: #FFFFFF;
+    border: none;
+}
+
+.body li{
+    display: flex;
+    width: 620px;
+    margin-left: 27%;
+    justify-content: space-between;
+    padding-bottom: 1px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29.35px;
+    height: auto;
     background-color: #2d2d2d;
     color: #FFFFFF;
     border: none;
