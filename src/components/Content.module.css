@@ -100,3 +100,95 @@
     color: #FFFFFF;
     border: none;
 }
+
+.modalBox{
+    width: 758px;
+    height: 436px;
+    margin-top: 50px;
+    margin-left: 334px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Raleway';
+    text-align: center;
+}
+
+.modalBox h1{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 41.09px;
+    text-align: left;
+    padding-left: 172px;
+    margin-bottom: 57px;
+}
+
+.modalBox input{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29.35px;
+    text-align: left;
+    margin-bottom: 85px;
+    color: #000000;
+    width: 476px;
+    min-height: 29px;
+    height: fit-content;
+    border: none;
+}
+
+.modalBox input::placeholder{
+    line-height: 29.35px;
+    text-align: left;
+    color: #2d2d2d;
+    font-family: 'Raleway';
+    width: 476px;
+    min-height: 29px;
+    height: fit-content;
+    border: none;
+}
+
+.modalBox p{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29.35px;
+    margin-bottom: 85px;
+    color: #000000;
+    width: 476px;
+    min-height: 29px;
+    padding-left: 130px;
+}
+
+.modalButton{
+    display: flex;
+    padding-left: 100px;
+    width: 560px;
+    justify-content: space-between;
+}
+
+.buttonNo{
+    background: #0C70F2;
+    width: 268.42px;
+    height: 77px;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35.22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.buttonYes{
+    background: #FFFFFF;
+    width: 268.42px;
+    height: 77px;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35.22px;
+    text-align: center;
+    color: #2d2d2d;
+    border: 1px solid #2d2d2d;
+}
