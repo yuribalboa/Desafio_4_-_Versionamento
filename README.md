@@ -1,6 +1,6 @@
 # Organizador de Tarefas React
 
-Este é um organizador de tarefas feito com React, que permite ao usuário adicionar, editar, excluir e marcar tarefas como concluídas. Além disso, o projeto inclui modais personalizados para confirmar ações como edição ou exclusão de tarefas.
+Este é um organizador de tarefas feito com React, que permite ao usuário adicionar, editar, excluir e marcar tarefas como concluídas. Além disso, o projeto inclui modais personalizados para confirmar ações como edição ou exclusão de tarefas. 
 
 ## Funcionalidades
 
@@ -40,3 +40,9 @@ O projeto utiliza o Git Flow, com duas branches principais:
 
 main: Branch de produção.
 develop: Branch para desenvolvimento de novas funcionalidades
+
+## Demonstração
+
+https://github.com/user-attachments/assets/c47a112d-3dda-450c-9431-5e7e34a44557
+
+
